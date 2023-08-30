@@ -23,6 +23,12 @@ const App = () => {
 
   el.className = 'App';
   el.textContent = 'Hola mundo! Aquí deben verse las tarjetas, tengo la idea, pero debo trabajarlo más :3';
+  el.innerHTML += '';
+  el.innerHTML += `
+    <div>
+      <h1>'HELLO HELLO'</h1>
+    </div>
+  `;
 
   return el;
 };
